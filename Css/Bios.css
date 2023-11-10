@@ -1,0 +1,71 @@
+.Titulos{
+    text-align: center;
+    font-size: 35px;
+    background-color: #ffffff00;
+}
+/*Para definir Class=""*/
+.biostitulo{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.contenido{
+    margin: 20px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+h1{
+    text-align: center;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Para asegurarte de que el video se muestre detrás de otros elementos */
+    background-color: rgba(0, 0, 0, 0.411);
+
+    }
+    .clearflix{
+        clear: both;
+    }
+    p {
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+
+    nav{
+        height: 50px;
+        border: 1px solid;
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        margin: 10px;
+        
+    }
+
+    .audio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+      }
+      

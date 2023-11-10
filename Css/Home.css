@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    
+    
+}
+.home{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-3d {
+    border-radius: 7px;
+    perspective: 800px;
+    background-color: #fff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .boton-3d:hover {
+    transform: rotateX(-10deg);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+#darkmode{
+    background-color: #f8f8;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    box-shadow: inset 4px 4px 6px #cecece,
+                inset -4px -4px 6px #fff;
+    margin: 0px auto;
+    margin-top: 350px ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#darkmode.active .toggle{
+    left: 40px;
+
+}
+body.active{
+    background-color: #1b1d1d;
+}
+
+.toggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+    background-color: linear-gradient(145deg, #D8D8D8, #ffff);
+    border-radius:3px 3px 8px #c4c4c4,
+                -3px -3px 8px #fff;
+}
+
+.espaciador {
+  margin-top: 280px; 
+  }
